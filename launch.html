@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Animation on scroll</title>
+    <link rel="stylesheet" href="launch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+</head>
+<body>
+  <div class="section"></div>
+  <div class="wrapper">
+    <div class="title">Responsive Counter up Animation HTML CSS & jQuery</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit accusantium, dolor eum ipsum repudiandae repellat sapiente, molestias, dolores explicabo laborum corrupti commodi totam molestiae magni ipsam saepe aut tempore nemo similique? Fuga in minus amet adipisci ipsa incidunt, quam iure aliquid corrupti asperiores, non quibusdam earum debitis dignissimos modi omnis repudiandae praesentium ad sequi veritatis, odio. Nam, unde! Iste consequatur asperiores doloremque aperiam cupiditate optio eum ducimus voluptatibus, animi illo quam dicta inventore dolore ab autem a, obcaecati, reprehenderit. Natus quasi officiis nulla officia rem placeat aut impedit nemo eum voluptatibus, dolores molestias velit, cupiditate magni illo laudantium beatae facere sequi obcaecati, reprehenderit eveniet nam, ea aperiam hic. Est odit, qui. Aliquid saepe molestiae, inventore. Necessitatibus temporibus, dignissimos, nisi repellendus possimus sed incidunt nam quos enim veritatis corporis ut sint, facere vitae, illum accusamus nesciunt dolore. Doloremque nihil sit, alias molestias sint quos voluptatum voluptatibus sunt quisquam, facere quod pariatur.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta repellendus illo iste eius molestiae natus, esse incidunt. Minus architecto dicta, provident libero. Ipsum culpa, atque ab. Aut incidunt amet optio quo nemo atque eligendi aperiam quisquam aliquid, distinctio mollitia minima, eius repellendus asperiores vero reprehenderit dolore, consequuntur adipisci tenetur! Enim sed, tempora obcaecati perspiciatis illo ducimus maiores aut quae eos, aspernatur sunt unde, quam a praesentium tenetur est quas eveniet dolorum quibusdam hic placeat! Distinctio nostrum assumenda suscipit cupiditate rem amet repudiandae labore neque quis quia dicta, aliquid eum nemo sint, maxime sunt. Cumque suscipit nulla quis velit iure. Consequuntur, ipsa! Veniam error enim itaque ab unde, accusamus asperiores, ratione, debitis similique suscipit aut, qui consectetur quos repudiandae illo impedit.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, sunt ipsum modi. Consectetur nobis vero minus, architecto facere velit explicabo molestiae delectus omnis ad expedita similique inventore placeat incidunt. Sint quasi autem quam illo omnis soluta minus, in quibusdam placeat. Saepe ea magni ducimus, modi, eos quis, at possimus earum ad magnam natus, nihil vero error. Ab ipsum omnis odit ipsam, maxime aspernatur molestiae sit tempore corporis non rerum earum neque voluptatibus provident dolor quod molestias officia. Aspernatur quis magni iste cum quas fugit modi aut ratione repudiandae quaerat eaque blanditiis veritatis quibusdam, reprehenderit eveniet, earum, atque sequi, sunt fugiat?</p>
+  </div>
+  <div class="counter-up">
+    <div class="content">
+      <div class="box">
+        <div class="icon"><i class="fas fa-history"></i></div>
+        <div class="counter">724</div>
+        <div class="text">Working Hours</div>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="fas fa-gift"></i></div>
+        <div class="counter">508</div>
+        <div class="text">Completed Projects</div>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="fas fa-users"></i></div>
+        <div class="counter">436</div>
+        <div class="text">Happy Clients</div>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="fas fa-award"></i></div>
+        <div class="counter">120</div>
+        <div class="text">Awards Received</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  $(document).ready(function(){
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1200
+    });
+  });
+  </script>
+
+</body>
+</html>
